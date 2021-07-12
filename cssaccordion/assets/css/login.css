@@ -1,0 +1,31 @@
+.cus_logout_btn {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 12px 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 50px;
+    transition: .3s;
+}
+
+.cus_logout_btn:hover {
+    background: rgb(163, 8, 8);
+    color: #fff;
+}
+
+.cus_login_form label {
+    display: block;
+}
+
+.cus_login_form input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #333;
+    margin-top: 20px;
+}
+
+.cus_login_form input[type="checkbox"]::after {
+    left: 3px;
+    top: 0;
+}
